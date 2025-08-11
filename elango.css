@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url(https://wallpapers.com/images/featured/spiderman-background-oycfyb1ksermw921.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  height: 50px;
+  background: rgba(146, 146, 146, 0.7);
+  margin-top: -55%;
+  margin-left: 0%;
+}
+.container {
+  padding: 50px;
+  border-radius: 40px;
+    background: rgba(146, 146, 146, 0.5);
+  width: 400px;
+  animation: slideIn 1s ease-out;
+  margin-left: 65%;
+}
+.login-form h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #110243;
+}
+
+.input-group {
+  position: relative;
+  margin-top: 40px;
+}
+
+input {
+  width: 300px;
+  padding: 10px 10px 10px 0;
+  border-radius: 1px solid white;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #320a63;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+input {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #0d0e0e;
+}
+
+input:focus {
+  border-bottom: 2px solid #080909;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  background: #0b0c0c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+i{
+    position: absolute;
+    margin-top: 63px;
+    margin-left: -35px;
+}
